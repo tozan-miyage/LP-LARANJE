@@ -1,0 +1,126 @@
+// <!-- メインコンテンツ -->
+.content {
+  margin: 3rem 0 0 0;
+  padding: 0 1rem;
+
+  .content-header {
+    text-align: center;
+
+    h2 {
+      font-size: 1.5rem;
+      margin: 0 0 10px 0;
+    }
+
+    div {
+      position: relative;
+      height: 30px;
+
+      hr {
+        height: 30px;
+        margin: 0;
+      }
+
+      p {
+        position: absolute;
+        background-color: white;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0 1rem;
+        line-height: 1;
+      }
+    }
+  }
+
+  .content-read {
+    text-align: center;
+
+    p {
+      margin: 0 0 6px 0;
+    }
+  }
+}
+
+// <!-- 取扱商品Product コンテント-->
+.product {
+  margin: 3rem 0 0 0;
+
+  p {
+    margin: 0 0 5px 0;
+  }
+
+  .product-img {
+    padding: 3px 0 8px;
+
+    .product-name {
+      font-size: 20px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .product-read {
+    p {
+      line-height: 1.4;
+    }
+  }
+
+  .product-link {
+    // display: inline-block;
+    margin: 1rem 0 0;
+    text-align: right;
+  }
+}
+
+// <!-- オススメ商品Reccomend コンテント-->
+
+.reccomend-swiper {
+  width: 100%;
+  height: 320px;
+  margin: 2rem 0 0 0;
+
+  .swiper-wrapper {
+    .swiper-slide {
+      .reccomend-card {
+        width: 220px;
+        height: 280px;
+        margin: 0 auto;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
+
+        .reccomend-img {
+          height: 45%;
+          img {
+            width: 100%;
+          }
+        }
+
+        .reccomend-read {
+          height: 55%;
+          padding: 1rem;
+
+          .item {
+            padding: 0 0 1rem 0;
+            text-align: center;
+          }
+
+          hr {
+            margin: 3px auto;
+            width: 80%;
+          }
+
+          .cast-comment,
+          .cast {
+            margin: 1rem;
+            font-size: 12px;
+          }
+
+          .cast {
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}

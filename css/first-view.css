@@ -1,0 +1,10 @@
+.first-view .swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.first-view .swiper-container .swiper-wrapper .swiper-slide img {
+  height: 100%;
+}
+/*# sourceMappingURL=first-view.css.map */

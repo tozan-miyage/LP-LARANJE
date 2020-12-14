@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAGM,WAHK,CACT,iBAAiB,CACf,eAAe,CACb,aAAa,CAAC;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,QAAQ,EAAE,MAAM;CAIjB;;AAVP,AAOQ,WAPG,CACT,iBAAiB,CACf,eAAe,CACb,aAAa,CAIX,GAAG,CAAC;EACF,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "first-view.scss"
+    ],
+    "names": [],
+    "file": "first-view.css"
+}

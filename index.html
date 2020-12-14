@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- グーグルフォント -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Sans+JP:wght@100;400&display=swap"
+        rel="stylesheet">
+
+    <!-- ブートストラップ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- フォントアウェイサム -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- スワイパー -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/first-view.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- ヘッダー -->
+        <header class="row">
+            <div class="header col-12">
+                <div class="login-logo-dummy col-1">
+                    <!-- 中央寄せにするための空白 -->
+                </div>
+                <div class="main-logo" href="#">
+                    <h1 alt="ラランジェオンラインショップロゴ"><img src="./images/laranje-logo5.svg" alt=""></h1>
+                </div>
+                <div class="login-logo col-1"><i class="fas fa-sign-in-alt"></i></div>
+            </div>
+        </header>
+
+        <main>
+            <!-- ナビゲーション -->
+            <div class="nav-wrap row">
+                <div class="scroll-nav col">
+                    <ul>
+                        <li><a href="#">取扱商品</a></li>
+                        <li><a href="#">オススメ</a></li>
+                        <li><a href="#">私たちについて</a></li>
+                        <li><a href="#">初めての方へ</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="next-btn"> ＞</div> -->
+            </div>
+
+            <!-- ファーストビュー -->
+            <div class="first-view row">
+                <!-- スライダーのメインコンテナの div 要素 -->
+                <div class="swiper-container first-view-swiper col-12">
+                    <!-- ラッパーの（スライドを囲む） div 要素 -->
+                    <div class="swiper-wrapper">
+                        <!-- それぞれのスライドの div 要素 -->
+                        <div class="swiper-slide"><img src="./images/first-view1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/sub-img1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/sub-img2.jpg" alt=""></div>
+                    </div>
+                    <!-- ページネーションの div 要素 -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- ナビゲーションボタンの div 要素-->
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+
+                    <!-- スクロールバーの div 要素 -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+
+            <!-- メインコンテンツ -->
+            <div class="main-contents">
+                <!-- 取扱商品Product コンテント-->
+                <section id="product" class="row content">
+                    <div class="col-12 content-header">
+                        <h2>取扱商品</h2>
+                        <div>
+                            <hr>
+                            <p>Products</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 content-read">
+                        <p>ラランジェ会員様限定</p>
+                        <p>安心の正規品をお届け</p>
+                    </div>
+
+                    <!-- システムプロフェッショナル -->
+                    <div class="product">
+                        <div class="product-img col-12">
+                            <p class="product-name">SYSTEM PROFESSIONAL</p>
+                            <img src="./images/System_Professional_Banner.jpg" alt="システムプロフェッショナル商品画像">
+                        </div>
+                        <div class="product-read col-12">
+                            <p>一人ひとりの髪の悩みに対応する
+                                <br>ヘアケアシステム</p>
+                            <div class="product-link">
+                                <a href="https://www.systemprofessional.com/ja-JP" class="">公式ホームページへ</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ニューウェイジャパン-->
+                    <div class="product">
+                        <div class="product-img col-12">
+                            <p class="product-name">NEWAY JAPAN</p>
+                            <img src="./images/nano-amino-banner1.png" alt="ナノアミノプレミアム商品画像">
+                        </div>
+                        <div class="product-read col-12">
+                            <p>髪にこだわるあなたへ
+                                <br>至高のヘアケア</p>
+                            <div class="product-link">
+                                <a href="https://www.systemprofessional.com/ja-JP" class="">公式ホームページへ</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ラランジェプライベートブランド-->
+                    <div class="product">
+                        <div class="product-img col-12">
+                            <p class="product-name">LARANJE PRIVATE BRAND</p>
+                            <img src="./images/nano-amino-banner1.png" alt="ナノアミノプレミアム商品画像">
+                        </div>
+                        <div class="product-read col-12">
+                            <p>ラランジェプライベートブランド
+                                <br>会員様のみ自宅にお届け</p>
+                            <div class="product-link">
+                                <!-- <a href="https://www.systemprofessional.com/ja-JP" class="">公式ホームページへ</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- オススメ商品Reccomend コンテント-->
+                <section id="Reccomend" class="row content">
+                    <div class="col-12 content-header">
+                        <h2>おすすめ商品</h2>
+                        <div>
+                            <hr>
+                            <p>Reccomend</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 content-read ">
+                        <p>CASTイチ押し</p>
+                        <p>アイテムはこちら</p>
+                    </div>
+                    <!-- スライダーのメインコンテナの div 要素 -->
+                    <div class="swiper-container reccomend-swiper col-12">
+                        <!-- ラッパーの（スライドを囲む） div 要素 -->
+                        <div class="swiper-wrapper">
+                            <!-- それぞれのスライドの div 要素 -->
+                            <div class="swiper-slide">
+                                <div class="reccomend-card">
+                                    <div class="reccomend-img">
+
+                                    </div>
+                                    <div class="reccomend-read">
+                                        <p class="item">Amino Shampoo</p>
+                                        <hr>
+                                        <p class="cast-comment">私も愛用しています。
+                                            スタイリングが楽になります。</p>
+                                        <p class="cast">stylist 紺野舞</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reccomend-card"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reccomend-card"></div>
+                            </div>
+                            <!-- ページネーションの div 要素 -->
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+
+                        <!-- ナビゲーションボタンの div 要素-->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <!-- スクロールバーの div 要素 -->
+                        <!-- <div class="swiper-scrollbar"></div> -->
+                    </div>
+                    <div class="mt-5">YouTube公式チャンネル</div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+
+        </footer>
+    </div>
+    <!-- ブートストラップ用jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <!-- 実装 -->
+    <script src="./js/main.js"></script>
+    <script src="./js/swiper.js"></script>
+</body>
+
+</html>

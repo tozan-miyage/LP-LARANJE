@@ -1,0 +1,119 @@
+.content {
+  margin: 3rem 0 0 0;
+  padding: 0 1rem;
+}
+
+.content .content-header {
+  text-align: center;
+}
+
+.content .content-header h2 {
+  font-size: 1.5rem;
+  margin: 0 0 10px 0;
+}
+
+.content .content-header div {
+  position: relative;
+  height: 30px;
+}
+
+.content .content-header div hr {
+  height: 30px;
+  margin: 0;
+}
+
+.content .content-header div p {
+  position: absolute;
+  background-color: white;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 0 1rem;
+  line-height: 1;
+}
+
+.content .content-read {
+  text-align: center;
+}
+
+.content .content-read p {
+  margin: 0 0 6px 0;
+}
+
+.product {
+  margin: 3rem 0 0 0;
+}
+
+.product p {
+  margin: 0 0 5px 0;
+}
+
+.product .product-img {
+  padding: 3px 0 8px;
+}
+
+.product .product-img .product-name {
+  font-size: 20px;
+}
+
+.product .product-img img {
+  width: 100%;
+}
+
+.product .product-read p {
+  line-height: 1.4;
+}
+
+.product .product-link {
+  margin: 1rem 0 0;
+  text-align: right;
+}
+
+.reccomend-swiper {
+  width: 100%;
+  height: 320px;
+  margin: 2rem 0 0 0;
+}
+
+.reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card {
+  width: 220px;
+  height: 280px;
+  margin: 0 auto;
+  -webkit-box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-img {
+  height: 45%;
+}
+
+.reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-img img {
+  width: 100%;
+}
+
+.reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read {
+  height: 55%;
+  padding: 1rem;
+}
+
+.reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read .item {
+  padding: 0 0 1rem 0;
+  text-align: center;
+}
+
+.reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read hr {
+  margin: 3px auto;
+  width: 80%;
+}
+
+.reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read .cast-comment,
+.reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read .cast {
+  margin: 1rem;
+  font-size: 12px;
+}
+
+.reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read .cast {
+  text-align: right;
+}
+/*# sourceMappingURL=main.css.map */
