@@ -116,4 +116,19 @@
 .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read .cast {
   text-align: right;
 }
+
+.youtube-reccomend p {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.youtube-reccomend .youtube-video {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.begginer-descriptions {
+  margin: 3rem 0 0 0;
+}
 /*# sourceMappingURL=main.css.map */
