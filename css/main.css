@@ -51,6 +51,9 @@
 
 .product .product-img {
   padding: 3px 0 8px;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
 }
 
 .product .product-img .product-name {
@@ -63,6 +66,7 @@
 
 .product .product-read p {
   line-height: 1.4;
+  margin: 1rem 0 0 0;
 }
 
 .product .product-link {
@@ -115,6 +119,29 @@
 
 .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read .cast {
   text-align: right;
+}
+
+.reccomend-swiper .swiper-button-prev,
+.reccomend-swiper .swiper-button-next {
+  width: 32px;
+  height: 32px;
+  margin-top: -16px;
+}
+
+.reccomend-swiper .swiper-button-prev {
+  background: url(../images/arrow-left.png) no-repeat center center/contain;
+}
+
+.reccomend-swiper .swiper-button-prev::after {
+  content: "";
+}
+
+.reccomend-swiper .swiper-button-next {
+  background: url(../images/arrow-right.png) no-repeat center center/contain;
+}
+
+.reccomend-swiper .swiper-button-next::after {
+  content: "";
 }
 
 .youtube-reccomend p {

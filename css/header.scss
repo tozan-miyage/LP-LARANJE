@@ -5,6 +5,7 @@
   padding: 1rem;
   display: flex;
   justify-content: center;
+  position: relative;
 
   .main-logo {
     width: 100px;
@@ -16,7 +17,12 @@
     }
   }
   .login-logo {
-      margin: auto 0;
+    //   margin: auto 0;
+    //   line-height: 60px;
+      position: absolute;
+      z-index: 1;
+      top:40%;
+      right: 16px;
   }
 
 }

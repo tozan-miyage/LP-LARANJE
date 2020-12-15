@@ -51,6 +51,9 @@
 
   .product-img {
     padding: 3px 0 8px;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
 
     .product-name {
       font-size: 20px;
@@ -64,6 +67,7 @@
   .product-read {
     p {
       line-height: 1.4;
+      margin: 1rem 0 0 0 ;
     }
   }
 
@@ -122,6 +126,27 @@
         }
       }
     }
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 32px;
+    height: 32px;
+    margin-top: -16px;
+  }
+  .swiper-button-prev {
+    // background: url(https://haniwaman.com/wp-content/uploads/2018/05/swiper3.png)
+    //   no-repeat center center / contain;
+    background: url(../images/arrow-left.png) no-repeat center center / contain;
+  }
+  .swiper-button-prev::after {
+    content: "";
+  }
+
+  .swiper-button-next {
+    background: url(../images/arrow-right.png) no-repeat center center / contain;
+  }
+  .swiper-button-next::after {
+    content: "";
   }
 }
 

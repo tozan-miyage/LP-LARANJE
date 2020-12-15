@@ -1,12 +1,31 @@
+// <!-- ファーストビュー -->
+
 .first-view {
   .swiper-container {
     .swiper-wrapper {
       .swiper-slide {
         width: 100%;
-        height: 400px;
+        // height: 400px;
         overflow: hidden;
-        img {
-          height: 100%;
+        // position: relative;
+        .nanoamino {
+        //   display: inline-block;
+        //   height: 100%;
+          width: 100%;
+        //   margin: auto 0;
+            // position: absolute;
+            // top: 0px;
+            // right: 0px;
+        }
+
+        .system {
+        //   display: inline-block;
+        //   height: 100%;
+          width: 100%;
+        //   margin: auto 0;
+            // position: absolute;
+            // top: 0px;
+            // left: 0px;
         }
       }
     }
