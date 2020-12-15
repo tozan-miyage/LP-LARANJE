@@ -158,4 +158,24 @@
   border-radius: 32px;
   margin: 1rem auto;
 }
+
+.about-us-banner {
+  margin: 3rem 0 0 0;
+}
+
+.about-us-banner p {
+  text-align: center;
+  font-weight: 400;
+}
+
+.about-us-banner .banner {
+  width: 220px;
+  height: 80px;
+  overflow: hidden;
+  margin: 1rem auto;
+}
+
+.about-us-banner .banner img {
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
