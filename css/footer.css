@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=footer.css.map */
+footer {
+  background: black;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  height: 32px;
+  line-height: 32px;
+}
+/*# sourceMappingURL=footer.css.map */

@@ -178,4 +178,52 @@
 .about-us-banner .banner img {
   width: 100%;
 }
+
+.instagram-link {
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 3rem 0 0 0;
+}
+
+.instagram-link .instagram-link-head {
+  height: 64px;
+  font-size: 15px;
+  border: solid 1px white;
+}
+
+.instagram-link .instagram-link-head .fa-instagram {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0 1rem 0 0;
+}
+
+.instagram-link .instagram-link-head p {
+  display: inline-block;
+  line-height: 64px;
+}
+
+.instagram-link .store-instagram {
+  height: 48px;
+  font-size: 12px;
+  border: solid 1px white;
+}
+
+.instagram-link .store-instagram p {
+  line-height: 48px;
+}
+
+.instagram-link .adress {
+  padding: 1rem;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.instagram-link .adress .company {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+}
+
+.instagram-link .adress p {
+  font-size: 12px;
+}
 /*# sourceMappingURL=main.css.map */

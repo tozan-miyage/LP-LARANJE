@@ -192,3 +192,55 @@
     }
   }
 }
+
+// <!-- 各店舗インスタグラム -->
+.instagram-link {
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 3rem 0 0 0;
+
+  .instagram-link-head {
+    height: 64px;
+    font-size: 15px;
+    border: solid 1px white;
+
+    .fa-instagram {
+      display: inline-block;
+      font-size: 18px;
+      margin: 0 1rem 0 0;
+    }
+
+    p {
+      display: inline-block;
+      line-height: 64px;
+    }
+  }
+
+  .store-instagram {
+    height: 48px;
+    font-size: 12px;
+    border: solid 1px white;
+
+    p {
+      line-height: 48px;
+    }
+  }
+
+  .adress {
+    padding: 1rem;
+    text-align: left;
+    line-height: 1.4;
+
+    .company {
+      margin: 0 0 8px 0;
+      font-size: 16px;
+    }
+
+    span {
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+}
