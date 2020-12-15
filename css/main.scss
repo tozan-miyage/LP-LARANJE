@@ -143,5 +143,30 @@
 
 .begginer-descriptions {
   margin: 3rem 0 0 0;
-  
+
+  .description {
+    padding: 0 1rem;
+    margin: 0 0 3rem;
+    .description-head {
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    p {
+      margin: 1rem 0 0 0;
+      line-height: 1.4;
+    }
+
+    .login-button {
+      width: 150px;
+      height: 32px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      line-height: 32px;
+      border-radius: 32px;
+      margin: 1rem auto ;
+    }
+  }
 }
