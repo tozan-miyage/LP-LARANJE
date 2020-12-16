@@ -11,4 +11,20 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.container {
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 960px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
