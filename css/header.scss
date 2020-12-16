@@ -1,7 +1,7 @@
 // <!-- ヘッダー -->
 .header {
   width: 100%;
-  height: 60px;
+  height: 80px;
   padding: 1rem;
   display: flex;
   justify-content: center;
@@ -10,19 +10,24 @@
   .main-logo {
     width: 100px;
     height: 42px;
-    margin: 0 auto;
+    margin: 8px auto;
 
     img {
       width: 100%;
     }
   }
+
   .login-logo {
     //   margin: auto 0;
     //   line-height: 60px;
     position: absolute;
     z-index: 1;
-    top: 40%;
+    top: 45%;
     right: 16px;
+
+    p {
+          font-size: 12px;
+      }
   }
 }
 
@@ -82,6 +87,9 @@
       z-index: 1;
       top: 45%;
       right: 48px;
+
+      
+      
     }
   }
 }
