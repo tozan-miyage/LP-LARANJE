@@ -8,7 +8,8 @@
 
     <!-- グーグルフォント -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Sans+JP:wght@100;400&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
 
     <!-- ブートストラップ -->
@@ -34,31 +35,35 @@
         <!-- ヘッダー -->
         <header class="row">
             <div class="header col-12">
-                <!-- <div class="login-logo-dummy"> -->
-                <!-- 中央寄せにするための空白 -->
-                <!-- </div> -->
+                <div class="login-logo">
+                    <!-- 中央寄せにするための空白 -->
+                </div>
                 <div class="main-logo" href="#">
-                    <h1 alt="ラランジェオンラインショップロゴ"><img src="./images/LRANJE-On-line_SHOP.png" alt=""></h1>
+                    <h1 alt="ラランジェオンラインショップ"><img src="./images/LRANJE-On-line_SHOP.png" alt=""></h1>
                 </div>
                 <div class="login-logo">
-                    <p>ログイン</p>
+                    <a href="https://laranje.subsc-beauty.jp/">
+                        <div class="login-button">
+                            <p>ログイン</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </header>
 
-        <main>
-            <!-- ナビゲーション -->
-            <div class="nav-wrap row">
-                <div class="scroll-nav col">
-                    <ul>
-                        <li><a href="#">取扱商品</a></li>
-                        <li><a href="#">オススメ</a></li>
-                        <li><a href="#">初めての方へ</a></li>
-                        <li><a href="#">私たちについて</a></li>
-                    </ul>
-                </div>
-                <!-- <div class="next-btn"> ＞</div> -->
+        <!-- ナビゲーション -->
+        <div class="nav-wrap row">
+            <div class="scroll-nav col">
+                <ul>
+                    <li><a href="#">取扱商品</a></li>
+                    <li><a href="#">オススメ</a></li>
+                    <li><a href="#">初めての方へ</a></li>
+                    <li><a href="#">私たちについて</a></li>
+                </ul>
             </div>
+            <!-- <div class="next-btn"> ＞</div> -->
+        </div>
+        <main>
 
             <!-- ファーストビュー -->
             <div class="first-view row">
@@ -68,8 +73,8 @@
                     <div class="swiper-wrapper">
                         <!-- それぞれのスライドの div 要素 -->
                         <!-- <div class="swiper-slide"><img src="./images/Laranje-top-image1.png" alt=""></div> -->
-                        <div class="swiper-slide"><img src="./images/system-top-img.png" alt="" class="system"></div>
-                        <div class="swiper-slide"><img src="./images/nanoamino-top-img.png" alt="" class="nanoamino">
+                        <div class="swiper-slide"><img src="./images/NanoAmino6.jpg" alt="" class="system"></div>
+                        <div class="swiper-slide"><img src="./images/top-demo-system.png" alt="" class="nanoamino">
                         </div>
                         <!-- <div class="swiper-slide"><img src="./images/system2.jpg" alt="" class="nanoamino"></div>
                         <div class="swiper-slide"><img src="./images/nanoamino-top1.png" alt="" class="system"></div> -->
@@ -90,70 +95,48 @@
             <!-- メインコンテンツ -->
             <div class="main-contents">
                 <!-- 取扱商品Product コンテント-->
-                <section id="product" class="row content">
-                    <div class="col-12 content-header">
-                        <h2>取扱商品</h2>
-                        <div>
-                            <hr>
-                            <p>Products</p>
-                        </div>
-                    </div>
+                <section id="product">
+                    <div class="row content">
+                        <div class="content-wrapper">
+                            <div class="col-12 content-header">
+                                <h2>取扱商品</h2>
+                                <div>
+                                    <hr>
+                                    <p>Products</p>
+                                </div>
+                            </div>
 
-                    <div class="col-12 content-read">
-                        <p>ラランジェ会員様限定</p>
-                        <p>安心の正規品をお届け</p>
+                            <div class="col-12 content-read">
+                                <p>ラランジェ会員様限定</p>
+                                <p>安心の正規品をお届け</p>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- システムプロフェッショナル -->
-                    <!-- <div class="product">
-                        <div class="product-img col-12">
-                            <p class="product-name">SYSTEM PROFESSIONAL</p>
-                            <img src="./images/System_Professional_Banner.jpg" alt="システムプロフェッショナル商品画像">
+                    <div class="product row">
+                        <div class="product-img col-sm-12 col-md-6">
+                            <img src="./images/3.png" alt="システムプロフェッショナル商品画像">
                         </div>
-                        <div class="product-read col-12">
-                            <p>一人ひとりの髪の悩みに対応する
-                                <br>ヘアケアシステム</p>
-                            <div class="product-link">
-                                <a href="https://www.systemprofessional.com/ja-JP" class="">公式ホームページへ</a>
-                            </div>
-                        </div>
-                    </div> -->
-
-                    <div class="product">
-                        <div class="product-img col-12">
+                        <div class="product-read col-sm-12 col-md-6">
                             <p class="product-name">SYSTEM</p>
-                            <img src="./images/system2.jpg" alt="システムプロフェッショナル商品画像">
-                        </div>
-                        <div class="product-read col-12">
-                            <p>ラランジェ全店の最高峰トリートメント MENU と リンクするホームケアシリーズ究極にパーソナライズされた CARE SYSTEM を ぜひご自宅でもご体験ください。
+                            <p>ラランジェ全店の最高峰トリートメント MENU と リンクするホームケアシリーズ究極にパーソナライズされた CARE SYSTEM を
+                                ぜひご自宅でもご体験ください。あなただけのホームケアを
                             </p>
                             <div class="product-link">
                                 <a href="https://www.systemprofessional.com/ja-JP" class="">公式ホームページへ</a>
                             </div>
                         </div>
                     </div>
+                    <hr class="border-line">
 
-                    <!-- ニューウェイジャパン-->
-                    <!-- <div class="product">
-                        <div class="product-img col-12">
-                            <p class="product-name">NEWAY JAPAN</p>
-                            <img src="./images/nano-amino-banner1.png" alt="ナノアミノプレミアム商品画像">
+                    <!-- ナノアミノ  -->
+                    <div class="product row">
+                        <div class="product-img col-sm-12 col-md-6">
+                            <img src="./images/4.png" alt="ナノアミノプレミアム商品画像">
                         </div>
-                        <div class="product-read col-12">
-                            <p>髪にこだわるあなたへ
-                                <br>至高のヘアケア</p>
-                            <div class="product-link">
-                                <a href="https://www.systemprofessional.com/ja-JP" class="">公式ホームページへ</a>
-                            </div>
-                        </div>
-                    </div> -->
-
-                    <div class="product">
-                        <div class="product-img col-12">
+                        <div class="product-read col-sm-12 col-md-6">
                             <p class="product-name">NANOAMINO</p>
-                            <img src="./images/nanoamino-top1.png" alt="ナノアミノプレミアム商品画像">
-                        </div>
-                        <div class="product-read col-12">
                             <p>ラランジェキャストも絶賛する商品力。 今まで何を使っても満足できなかった方に ぜひ試していただきたい PREMIUM なヘアケアです。 「一生使い続けたい」がきっと見つかります。
                             </p>
                             <div class="product-link">
@@ -161,14 +144,15 @@
                             </div>
                         </div>
                     </div>
+                    <hr class="border-line">
 
                     <!-- ラランジェプライベートブランド-->
-                    <div class="product">
-                        <div class="product-img col-12">
-                            <p class="product-name">LARANJE PRIVATE BRAND</p>
-                            <img src="./images/larasol-logo.png" alt="ナノアミノプレミアム商品画像">
+                    <div class="product row">
+                        <div class="product-img col-sm-12 col-md-6">
+                            <img src="./images/9.png" alt="ナノアミノプレミアム商品画像">
                         </div>
-                        <div class="product-read col-12">
+                        <div class="product-read col-sm-12 col-md-6">
+                            <p class="product-name">LARANJE PRIVATE BRAND</p>
                             <p>ラランジェプライベートブランド
                                 <br>会員様のみ自宅にお届け</p>
                             <div class="product-link">
@@ -179,23 +163,27 @@
                 </section>
 
                 <!-- オススメ商品Reccomend コンテント-->
-                <section id="Reccomend" class="row content">
-                    <div class="col-12 content-header">
-                        <h2>おすすめ商品</h2>
-                        <div>
-                            <hr>
-                            <p>Reccomend</p>
+                <section id="Reccomend">
+                    <div class="row content">
+                        <div class="content-wrapper">
+                            <div class="col-12 content-header">
+                                <h2>おすすめ商品</h2>
+                                <div>
+                                    <hr>
+                                    <p>Reccomend</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 content-read ">
+                                <p>CASTイチ押し</p>
+                                <p>アイテムはこちら</p>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="col-12 content-read ">
-                        <p>CASTイチ押し</p>
-                        <p>アイテムはこちら</p>
-                    </div>
                     <!-- スライダーのメインコンテナの div 要素 -->
-                    <div class="swiper-container reccomend-swiper col-12">
+                    <div class="swiper-container reccomend-swiper row">
                         <!-- ラッパーの（スライドを囲む） div 要素 -->
-                        <div class="swiper-wrapper">
+                        <div class="swiper-wrapper col-12">
                             <!-- それぞれのスライドの div 要素 -->
                             <div class="swiper-slide">
                                 <div class="reccomend-card">
@@ -253,32 +241,36 @@
                     </div>
 
                     <!-- 公式YouTube紹介 -->
-                    <div class="youtube-reccomend col-12">
+                    <div class="youtube-reccomend row">
                         <P>YouTube公式チャンネル</P>
-                        <div class="youtube-video">
-                            <iframe width="290" height="180" src="https://www.youtube.com/embed/GhFL26B8too"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                        <div class="video-wrapper col-12">
+                            <div class="youtube-video">
+                                <iframe height="auto" src="https://www.youtube.com/embed/GhFL26B8too" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
                 </section>
 
                 <!-- 初めての方へ -->
-                <section id="for-begginer" class="row content">
-                    <div class="col-12 content-header">
-                        <h2>初めての方へ</h2>
-                        <div>
-                            <hr>
-                            <p>For begginer</p>
+                <section id="for-begginer">
+                    <div class="row content">
+                        <div class="content-wrapper">
+                            <div class="col-12 content-header">
+                                <h2>初めての方へ</h2>
+                                <div>
+                                    <hr>
+                                    <p>For begginer</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 content-read ">
+                                <p>サイトインには</p>
+                                <p>IDとパスワードが必要です</p>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="col-12 content-read ">
-                        <p>サイトインには</p>
-                        <p>IDとパスワードが必要です</p>
-                    </div>
-
                     <div class="begginer-descriptions row">
                         <!-- ラランジェ会員様 -->
                         <div class="description col-12 col-md-4">
@@ -287,11 +279,13 @@
                         </div>
 
                         <!-- その他のお客様 -->
-                        <div class="description col-12 col-md-4">
-                            <p class="description-head">その他のお客様</p>
-                            <p>各店舗に、お電話にて問い合わせください
-                                ラランジェ会員に登録していただき
-                                公式アプリをご案内いたします</p>
+                        <div class="col-12 col-md-4">
+                            <div class="description">
+                                <p class="description-head">その他のお客様</p>
+                                <p>各店舗に、お電話にて問い合わせください
+                                    ラランジェ会員に登録していただき
+                                    公式アプリをご案内いたします</p>
+                            </div>
                         </div>
 
                         <!-- ショッピング -->
@@ -306,89 +300,98 @@
                 </section>
 
                 <!-- 私たちについて -->
-                <section id="About-us" class="row content">
-                    <div class="col-12 content-header">
-                        <h2>私たちについて</h2>
-                        <div>
-                            <hr>
-                            <p>About us</p>
+                <section id="About-us">
+                    <div class="row content">
+                        <div class="content-wrapper">
+                            <div class="col-12 content-header">
+                                <h2>私たちについて</h2>
+                                <div>
+                                    <hr>
+                                    <p>About us</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 content-read ">
+                                <p>LARANJEは</p>
+                                <p>「元気を提供する」会社です</p>
+                                <!-- <p>IDとパスワードが必要です</p> -->
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-12 content-read ">
-                        <p>LARANJEは</p>
-                        <p>「元気を提供する」会社です</p>
-                        <!-- <p>IDとパスワードが必要です</p> -->
-                    </div>
+                    <div class="row about-us-banner">
+                        <div class="banner-wrapper col-12 col-md-4">
+                            <p>美容室ラランジェHP</p>
+                            <div class="banner">
+                                <a href="http://"><img src="./images/LARANJE-banner2.png" alt=""></a>
+                            </div>
+                        </div>
 
-                    <div class="about-us-banner col-12 col-md-4">
-                        <p>ラランジェ公式HP</p>
-                        <div class="banner">
-                            <a href="http://"><img src="./images/LARANJE-banner1.png" alt=""></a>
+                        <div class="banner-wrapper col-12 col-md-4">
+                            <p>リクルート</p>
+                            <div class=" banner">
+                                <a href="https://youtu.be/ewX9qXbrLzY"><img src="./images/recruit-banner1.jpg"
+                                        alt=""></a>
+                            </div>
+                        </div>
+
+
+                        <div class="banner-wrapper col-12 col-md-4">
+                            <p>パートナーショップ</p>
+                            <div class="banner">
+                                <a href="https://beautymylab.com/"><img src="./images/beautymylab-banner2.png"
+                                        alt=""></a>
+                            </div>
                         </div>
                     </div>
+                    <!-- 各店舗インスタグラム -->
 
-                    <div class="about-us-banner col-12 col-md-4">
-                        <p>リクルート</p>
-                        <div class="banner">
-                            <a href="https://youtu.be/ewX9qXbrLzY"><img src="./images/recruit-banner1.jpg" alt=""></a>
+                    <div class="instagram-link row">
+                        <div class="instagram-link-head col-12">
+                            <p><i class="fab fa-instagram"></i>instagram</p>
+                        </div>
+                        <div class="store-instagram col-6 col-md-4">
+                            <p>本通り店</p>
+                        </div>
+                        <div class="store-instagram col-6 col-md-4">
+                            <p>紙屋町店</p>
+                        </div>
+                        <div class="store-instagram col-6 col-md-4">
+                            <p>甲午店</p>
+                        </div>
+                        <div class="store-instagram col-6 col-md-4">
+                            <p>祇園店</p>
+                        </div>
+                        <div class="store-instagram col-6 col-md-4">
+                            <p>光町店</p>
+                        </div>
+                        <div class="store-instagram col-6 col-md-4">
+                            <p>楽々園店</p>
+                        </div>
+                        <div class="store-instagram col-6 col-md-4">
+                            <p>段原店</p>
+                        </div>
+                        <div class="store-instagram col-6 col-md-4">
+                            <p>横川店</p>
+                        </div>
+                        <div class="store-instagram col-6 col-md-4">
+                            <p>己斐店</p>
+                        </div>
+                        <div class="store-instagram col-6 col-md-12">
+                            <p>公式instagram</p>
+                        </div>
+                        <div class="adress col-12">
+                            <p class="company"><span>株式会社ラランジェ</span></p>
+                            <div class="company-info">
+                                <p>〒734-0014
+                                    <br>&emsp;広島市南区宇品西1丁目2-38</p>
+                                <p>Tel : 0120-777-707</p>
+                                <p>E-mail : webmaster@laranje.jp</p>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="about-us-banner col-12 col-md-4">
-                        <p>パートナーショップ</p>
-                        <div class="banner">
-                            <a href="https://beautymylab.com/"><img src="./images/beautymylab-banner2.png" alt=""></a>
-                        </div>
-                    </div>
+                    <!-- </div> -->
                 </section>
-
-                <!-- 各店舗インスタグラム -->
-
-                <div class="instagram-link row">
-                    <div class="instagram-link-head col-12">
-                        <p><i class="fab fa-instagram"></i>instagram</p>
-                    </div>
-                    <div class="store-instagram col-6 col-md-4">
-                        <p>本通り店</p>
-                    </div>
-                    <div class="store-instagram col-6 col-md-4">
-                        <p>紙屋町店</p>
-                    </div>
-                    <div class="store-instagram col-6 col-md-4">
-                        <p>甲午店</p>
-                    </div>
-                    <div class="store-instagram col-6 col-md-4">
-                        <p>祇園店</p>
-                    </div>
-                    <div class="store-instagram col-6 col-md-4">
-                        <p>光町店</p>
-                    </div>
-                    <div class="store-instagram col-6 col-md-4">
-                        <p>楽々園店</p>
-                    </div>
-                    <div class="store-instagram col-6 col-md-4">
-                        <p>段原店</p>
-                    </div>
-                    <div class="store-instagram col-6 col-md-4">
-                        <p>横川店</p>
-                    </div>
-                    <div class="store-instagram col-6 col-md-4">
-                        <p>己斐店</p>
-                    </div>
-                    <div class="store-instagram col-6 col-md-12">
-                        <p>公式instagram</p>
-                    </div>
-                    <div class="adress col-12">
-                        <p class="company"><span>株式会社ラランジェ</span></p>
-                        <p>〒734-0014 </p>
-                        <p>広島市南区宇品西1丁目2-38</p>
-                        <p>Tel : 0120-777-707</p>
-                        <p>E-mail : webmaster@laranje.jp</p>
-                    </div>
-
-                </div>
-            </div>
         </main>
         <footer>
             <div class="row">

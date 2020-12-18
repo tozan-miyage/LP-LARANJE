@@ -1,23 +1,11 @@
-@charset "UTF-8";
-@media only screen and (min-width: 771px) {
-  /* PCサイズでの指定 */
-  .scroll-nav ul {
-    padding: 0;
-  }
-  .scroll-nav ul li {
-    width: 14.2%;
-    /* メニューの個別の幅 */
-  }
-  .next-btn {
-    display: none;
-    /* 右側の固定部分を非表示 */
-  }
-}
-
 .nav-wrap {
   width: 100%;
   height: 28px;
   background-color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60px;
+  z-index: 10;
 }
 
 .nav-wrap ul {
@@ -31,12 +19,51 @@
 }
 
 .nav-wrap ul li {
-  font-size: 10px;
+  font-size: 0.6rem;
   padding: 0 7px;
   line-height: 28px;
 }
 
 .nav-wrap ul li a {
   color: white;
+}
+
+.nav-wrap ul li a:hover {
+  text-decoration: none;
+  opacity: .7;
+}
+
+@media (min-width: 576px) {
+  .nav-wrap {
+    height: 32px;
+    top: 80px;
+  }
+  .nav-wrap ul li {
+    font-size: 0.7rem;
+    padding: 0 1rem;
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-wrap {
+    top: 120px;
+  }
+  .nav-wrap ul li {
+    font-size: 0.8rem;
+    padding: 0 1.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 960px;
+  }
 }
 /*# sourceMappingURL=navigation.css.map */
