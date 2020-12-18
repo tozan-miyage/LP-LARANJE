@@ -1,11 +1,11 @@
 body {
-  font-family: 'Noto Serif','Noto Sans JP',sans-serif,serif;
+  font-family: "Noto Serif", "Noto Sans JP", sans-serif, serif;
   font-weight: 300;
   letter-spacing: 1px;
-  background-color: silver;
+  //   background-color: silver;
 }
 
-.container,
+.container-fluid,
 .row,
 .col-12,
 .col-6 {
@@ -13,7 +13,7 @@ body {
   padding: 0;
 }
 
-.container {
+.container-fluid {
   margin: 0 auto;
   background-color: white;
 }
@@ -24,24 +24,22 @@ body {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-
 }
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .container {
-    max-width: 960px;
+    // max-width: 960px;
   }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
   .container {
-    max-width: 960px;
+    // max-width: 960px;
   }
 }
