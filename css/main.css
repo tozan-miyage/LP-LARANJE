@@ -87,19 +87,15 @@
 .reccomend-swiper {
   width: 100%;
   height: 320px;
-  margin: 2rem 0 0 0;
+  margin: 2rem auto;
 }
 
 .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card {
   width: 220px;
-  height: 280px;
+  height: 293px;
   margin: 0 auto;
   -webkit-box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
           box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
-}
-
-.reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-img {
-  height: 45%;
 }
 
 .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-img img {
@@ -107,25 +103,25 @@
 }
 
 .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read {
-  height: 55%;
   padding: 1rem;
 }
 
 .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read .item {
-  padding: 0 0 1rem 0;
   text-align: center;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read hr {
-  margin: 3px auto;
+  margin: 10px auto;
   width: 80%;
   opacity: 0.7;
 }
 
 .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read .cast-comment,
 .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read .cast {
-  margin: 1rem;
   font-size: 12px;
+  line-height: 1.3;
 }
 
 .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read .cast {
@@ -205,6 +201,7 @@
   color: white;
   text-align: center;
   line-height: 32px;
+  font-size: 0.8rem;
   margin: 2rem auto;
 }
 
@@ -232,61 +229,6 @@
   width: 100%;
 }
 
-.instagram-link {
-  background-color: whitesmoke;
-  text-align: center;
-  margin: 3rem 0 0 0;
-}
-
-.instagram-link .instagram-link-head {
-  height: 64px;
-  font-size: 15px;
-  border: solid 1px white;
-}
-
-.instagram-link .instagram-link-head .fa-instagram {
-  display: inline-block;
-  font-size: 18px;
-  margin: 0 1rem 0 0;
-}
-
-.instagram-link .instagram-link-head p {
-  display: inline-block;
-  line-height: 64px;
-}
-
-.instagram-link .store-instagram {
-  height: 48px;
-  font-size: 12px;
-  border: solid 1px white;
-}
-
-.instagram-link .store-instagram p {
-  line-height: 48px;
-}
-
-.instagram-link .adress {
-  padding: 1rem;
-  text-align: center;
-  line-height: 1.4;
-}
-
-.instagram-link .adress .company {
-  margin: 0 0 8px 0;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.instagram-link .adress .company-info {
-  text-align: left;
-  display: inline-block;
-  margin: 0 auto;
-}
-
-.instagram-link .adress p {
-  font-size: 12px;
-}
-
 @media (min-width: 576px) {
   .content {
     margin: 5rem 0 1rem;
@@ -297,7 +239,9 @@
     overflow: hidden;
   }
   #product .product .product-img img {
-    width: 100%;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
   }
   #product .product .product-read {
     max-width: 400px;
@@ -365,65 +309,17 @@
   .content .content-wrapper .content-read p {
     margin: 0 0 6px 0;
   }
+  #product .product .product-img {
+    padding: 1rem;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  #product .product .product-img img {
+    width: 100%;
+    display: inline;
+  }
   #About-us {
     padding: 0;
-  }
-  .reccomend-swiper {
-    width: 100%;
-    height: 350px;
-    margin: 2rem 0 0 0;
-  }
-  .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card {
-    width: 220px;
-    height: 280px;
-    margin: 2rem auto;
-    -webkit-box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
-            box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
-  }
-  .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-img {
-    height: 45%;
-  }
-  .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-img img {
-    width: 100%;
-  }
-  .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read {
-    height: 55%;
-    padding: 1rem;
-  }
-  .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read .item {
-    padding: 0 0 1rem 0;
-    text-align: center;
-  }
-  .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read hr {
-    margin: 3px auto;
-    width: 80%;
-    opacity: 0.7;
-  }
-  .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read .cast-comment,
-  .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read .cast {
-    margin: 1rem;
-    font-size: 12px;
-  }
-  .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card .reccomend-read .cast {
-    text-align: right;
-  }
-  .reccomend-swiper .swiper-button-prev,
-  .reccomend-swiper .swiper-button-next {
-    width: 32px;
-    height: 32px;
-    margin-top: -16px;
-  }
-  .reccomend-swiper .swiper-button-prev {
-    background: url(../images/arrow-left.png) no-repeat center center/contain;
-  }
-  .reccomend-swiper .swiper-button-prev::after {
-    content: "";
-  }
-  .reccomend-swiper .swiper-button-next {
-    background: url(../images/arrow-right.png) no-repeat center center/contain;
-  }
-  .reccomend-swiper .swiper-button-next::after {
-    content: "";
   }
   .youtube-reccomend {
     margin: 2rem 0;

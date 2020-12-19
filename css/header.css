@@ -5,7 +5,7 @@ header {
   position: sticky;
   top: 0;
   background-color: white;
-  opacity: .95;
+  opacity: 0.95;
   z-index: 10;
 }
 
@@ -52,23 +52,18 @@ header .header .login-logo .login-button p {
     margin: 16px auto 0;
   }
   header .header .login-logo {
-    width: 150px;
+    width: 200px;
   }
   header .header .login-logo a:hover {
     text-decoration: none;
-  }
-  header .header .login-logo .login-button {
-    font-size: 0.8rem;
   }
   header .header .login-logo .login-button :hover {
     opacity: 0.8;
   }
   header .header .login-logo .login-button p {
-    line-height: 28px;
-    text-align: center;
-    margin: 10px 0 0 0;
-    background-color: black;
-    color: white;
+    line-height: 32px;
+    font-size: 0.8rem;
+    margin: 6px 0 0 0;
   }
 }
 
@@ -80,11 +75,17 @@ header .header .login-logo .login-button p {
     width: 160px;
     margin: 30px auto 0;
   }
-  header .header .login-logo {
-    width: 200px;
+  header .header .login-logo .login-button {
+    font-size: 0.8rem;
+    width: 150px;
+    height: 32px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 20% 0 0 0;
   }
   header .header .login-logo .login-button p {
-    margin: 32px 24px 0 0;
+    line-height: 32px;
   }
 }
 /*# sourceMappingURL=header.css.map */

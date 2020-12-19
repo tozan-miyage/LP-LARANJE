@@ -1,7 +1,6 @@
 // <!-- メインコンテンツ -->
 .content {
   margin: 3rem 0;
-  //   padding: 0 1rem;
 
   .content-wrapper {
     margin: 0 auto;
@@ -91,46 +90,51 @@
 }
 
 // <!-- オススメ商品Reccomend コンテント-->
-
 .reccomend-swiper {
   width: 100%;
   height: 320px;
-  margin: 2rem 0 0 0;
+  margin: 2rem auto;
 
   .swiper-wrapper {
+    //   width:300px;
     .swiper-slide {
+        // width: 500px;
       .reccomend-card {
         width: 220px;
-        height: 280px;
+        height: 293px;
         margin: 0 auto;
         box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
 
         .reccomend-img {
-          height: 45%;
+          
           img {
             width: 100%;
           }
         }
 
         .reccomend-read {
-          height: 55%;
+        //   height: 55%;
           padding: 1rem;
 
           .item {
-            padding: 0 0 1rem 0;
+            // padding: .5rem 0;
             text-align: center;
+            font-size: 14px;
+            font-weight: 400;
           }
 
           hr {
-            margin: 3px auto;
+            margin: 10px auto;
             width: 80%;
             opacity: 0.7;
           }
 
           .cast-comment,
           .cast {
-            margin: 1rem;
+            // margin: 1rem;
             font-size: 12px;
+            line-height: 1.3;
+            
           }
 
           .cast {
@@ -191,7 +195,6 @@
 }
 
 // <!-- 初めての方へ -->
-
 .begginer-descriptions {
   margin: 3rem 0 0 0;
 
@@ -217,6 +220,7 @@
       color: white;
       text-align: center;
       line-height: 32px;
+      font-size: 0.8rem;
       //   border-radius: 32px;
       margin: 2rem auto;
     }
@@ -224,7 +228,6 @@
 }
 
 // <!-- 私たちについて -->
-
 .about-us-banner {
   margin: 3rem 0 0 0;
 
@@ -251,65 +254,6 @@
   }
 }
 
-// <!-- 各店舗インスタグラム -->
-.instagram-link {
-  background-color: whitesmoke;
-  text-align: center;
-  margin: 3rem 0 0 0;
-
-  .instagram-link-head {
-    height: 64px;
-    font-size: 15px;
-    border: solid 1px white;
-
-    .fa-instagram {
-      display: inline-block;
-      font-size: 18px;
-      margin: 0 1rem 0 0;
-    }
-
-    p {
-      display: inline-block;
-      line-height: 64px;
-    }
-  }
-
-  .store-instagram {
-    height: 48px;
-    font-size: 12px;
-    border: solid 1px white;
-
-    p {
-      line-height: 48px;
-    }
-  }
-
-  .adress {
-    padding: 1rem;
-    text-align: center;
-    line-height: 1.4;
-
-    .company {
-      margin: 0 0 8px 0;
-      font-size: 16px;
-      font-weight: 400;
-    }
-
-    .company-info {
-      text-align: left;
-      display: inline-block;
-      margin: 0 auto;
-    }
-
-    span {
-    }
-
-    p {
-      font-size: 12px;
-    }
-  }
-}
-
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .content {
@@ -325,7 +269,9 @@
         overflow: hidden;
 
         img {
-          width: 100%;
+          width: 70%;
+          display: block;
+          margin: 0 auto;
         }
       }
 
@@ -410,89 +356,97 @@
     }
   }
 
-  #About-us {
-    padding: 0;
+  #product {
+    .product {
+      .product-img {
+        padding: 1rem;
+        margin: 0 auto;
+        overflow: hidden;
 
-    // .banner-wrapper1 {
-    //   margin: 0 0 0 -16px;
-    // }
-
-    // .banner-wrapper3 {
-    //   margin: 0 -16px 0 0;
-    // }
-  }
-
-  .reccomend-swiper {
-    width: 100%;
-    height: 350px;
-    margin: 2rem 0 0 0;
-
-    .swiper-wrapper {
-      .swiper-slide {
-        .reccomend-card {
-          width: 220px;
-          height: 280px;
-          margin: 2rem auto;
-          box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
-
-          .reccomend-img {
-            height: 45%;
-            img {
-              width: 100%;
-            }
-          }
-
-          .reccomend-read {
-            height: 55%;
-            padding: 1rem;
-
-            .item {
-              padding: 0 0 1rem 0;
-              text-align: center;
-            }
-
-            hr {
-              margin: 3px auto;
-              width: 80%;
-              opacity: 0.7;
-            }
-
-            .cast-comment,
-            .cast {
-              margin: 1rem;
-              font-size: 12px;
-            }
-
-            .cast {
-              text-align: right;
-            }
-          }
+        img {
+          width: 100%;
+          display: inline;
         }
       }
     }
-
-    .swiper-button-prev,
-    .swiper-button-next {
-      width: 32px;
-      height: 32px;
-      margin-top: -16px;
-    }
-    .swiper-button-prev {
-      background: url(../images/arrow-left.png) no-repeat center center /
-        contain;
-    }
-    .swiper-button-prev::after {
-      content: "";
-    }
-
-    .swiper-button-next {
-      background: url(../images/arrow-right.png) no-repeat center center /
-        contain;
-    }
-    .swiper-button-next::after {
-      content: "";
-    }
   }
+
+  #About-us {
+    padding: 0;
+
+  }
+
+//   .reccomend-swiper {
+//     width: 100%;
+//     height: 350px;
+//     margin: 2rem 0 0 0;
+
+//     .swiper-wrapper {
+//       .swiper-slide {
+//         .reccomend-card {
+//           width: 220px;
+//           height: 280px;
+//           margin: 2rem auto;
+//           box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
+
+//           .reccomend-img {
+//             height: 45%;
+//             img {
+//               width: 100%;
+//             }
+//           }
+
+//           .reccomend-read {
+//             height: 55%;
+//             padding: 1rem;
+
+//             .item {
+//               padding: 0 0 1rem 0;
+//               text-align: center;
+//             }
+
+//             hr {
+//               margin: 3px auto;
+//               width: 80%;
+//               opacity: 0.7;
+//             }
+
+//             .cast-comment,
+//             .cast {
+//               margin: 1rem;
+//               font-size: 12px;
+//             }
+
+//             .cast {
+//               text-align: right;
+//             }
+//           }
+//         }
+//       }
+//     }
+
+//     .swiper-button-prev,
+//     .swiper-button-next {
+//       width: 32px;
+//       height: 32px;
+//       margin-top: -16px;
+//     }
+//     .swiper-button-prev {
+//       background: url(../images/arrow-left.png) no-repeat center center /
+//         contain;
+//     }
+//     .swiper-button-prev::after {
+//       content: "";
+//     }
+
+//     .swiper-button-next {
+//       background: url(../images/arrow-right.png) no-repeat center center /
+//         contain;
+//     }
+//     .swiper-button-next::after {
+//       content: "";
+//     }
+//   }
 
   .youtube-reccomend {
     margin: 2rem 0;
@@ -566,7 +520,6 @@
         margin: 1rem 0 0 0;
         line-height: 1.4;
       }
-
     }
   }
 }

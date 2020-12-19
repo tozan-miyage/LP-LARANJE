@@ -31,8 +31,27 @@ jQuery(function ()
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
         },
-
+        slidesPerView: 1,
         // loop:true,
+        // レスポンシブブレーポイント（画面幅による設定）
+        breakpoints: {
+      
+    // 画面幅が 576px 以上の場合（window width >= 640px）
+            576: {
+      slidesPerView: 1,
+        
+    },
+    // 画面幅が 768px 以上の場合（window width >= 640px）
+    768: {
+      slidesPerView: 3,
+    //   spaceBetween: 5,
+    },
+    // 画面幅が 980px 以上の場合（window width >= 980px）
+    980: {
+      slidesPerView: 3,
+    //   spaceBetween: 5,
+    }
+  },
     });
 });
 

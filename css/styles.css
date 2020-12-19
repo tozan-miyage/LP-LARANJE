@@ -16,4 +16,11 @@ body {
   margin: 0 auto;
   background-color: white;
 }
+
+@media (min-width: 1200px) {
+  .main-contents {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

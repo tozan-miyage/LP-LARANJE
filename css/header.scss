@@ -5,7 +5,7 @@ header {
   position: sticky;
   top: 0;
   background-color: white;
-  opacity: .95;
+  opacity: 0.95;
   z-index: 10;
 
   .header {
@@ -51,24 +51,24 @@ header {
       }
 
       .login-logo {
-        width: 150px;
+        width: 200px;
 
         a:hover {
           text-decoration: none;
         }
 
         .login-button {
-          font-size: 0.8rem;
           :hover {
             opacity: 0.8;
           }
 
           p {
-            line-height: 28px;
-            text-align: center;
-            margin: 10px 0 0 0;
-            background-color: black;
-            color: white;
+            line-height: 32px;
+            font-size: 0.8rem;
+            // text-align: center;
+            margin: 6px 0 0 0;
+            // background-color: black;
+            // color: white;
           }
         }
       }
@@ -81,18 +81,27 @@ header {
     height: 120px;
 
     .header {
-
       .main-logo {
         width: 160px;
         margin: 30px auto 0;
       }
 
       .login-logo {
-        width: 200px;
+        // width: 200px;
 
         .login-button {
+          font-size: 0.8rem;
+          width: 150px;
+          height: 32px;
+          background-color: black;
+          color: white;
+          text-align: center;
+          //   line-height: 32px;
+          //   border-radius: 32px;
+          margin: 20% 0 0 0;
           p {
-            margin: 32px 24px 0 0;
+            // margin: 32px 24px 0 0;
+            line-height: 32px;
           }
         }
       }

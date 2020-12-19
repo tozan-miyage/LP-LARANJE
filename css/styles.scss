@@ -18,6 +18,7 @@ body {
   background-color: white;
 }
 
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 }
@@ -32,14 +33,13 @@ body {
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  .container {
-    // max-width: 960px;
+  .main-contents{
+      width: 1200px;
+      margin: 0 auto;
   }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
-  .container {
-    // max-width: 960px;
-  }
+ 
 }
