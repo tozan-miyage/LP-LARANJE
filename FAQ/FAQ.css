@@ -1,0 +1,120 @@
+.cp_actab {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	color: #ffffff;
+}
+.cp_actab input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.cp_actab label {
+	font-weight: bold;
+	line-height: 3;
+	position: relative;
+	display: block;
+	padding: 0 0 0 1em;
+	cursor: pointer;
+	margin: 0 0 1px 0;
+	background: #444;
+}
+.cp_actab .cp_actab-content {
+	overflow: hidden;
+	max-height: 0;
+	-webkit-transition: max-height 0.35s;
+	transition: max-height 0.35s;
+	color: #333333;
+	background: #fff;
+}
+.cp_actab .cp_actab-content p {
+	margin: 1em;
+}
+/* :checked */
+.cp_actab input:checked ~ .cp_actab-content {
+	max-height: 20em;
+}
+/* Icon */
+.cp_actab label::after {
+	line-height: 3;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	width: 3em;
+	height: 3em;
+	-webkit-transition: all 0.35s;
+	transition: all 0.35s;
+	text-align: center;
+}
+.cp_actab input[type=checkbox] + label::after {
+	content: '+';
+}
+.cp_actab input[type=checkbox]:checked + label::after {
+	transform: rotate(315deg);
+}
+
+
+/* <!-- StyleSheet --> */
+<link rel="stylesheet" media="(min-width: 640px)" href="common/styles/FAQ.css"> /*PC�p
+
+
+#QandA-1 {
+	width: 100%;
+	font-family: ���C���I;
+	font-size: 14px; /*�S�̂̃t�H���g�T�C�Y*/
+/* } */
+#QandA-1 h2 {
+
+}
+#QandA-1 dt {
+	background: #444; /* �uQ�v�^�C�g���̔w�i�F */
+	color: #fff; /* �uQ�v�^�C�g���̕����F */
+	padding: 10px;
+	border-radius: 2px;
+}
+#QandA-1 dt:before {
+	content: "Q.";
+	font-weight: bold;
+	margin-right: 10px;
+}
+#QandA-1 dd {
+	margin: 24px 16px 40px 32px;
+	line-height: 140%;
+	text-indent: -24px;
+}
+#QandA-1 dd:before {
+	content: "A.";
+	font-weight: bold;
+	margin-right: 8px;
+}
+
+
+body {
+    margin: 2.5em 20px;   
+   padding: 0;      
+}
+
+body, input, textarea {
+  font-family: "�q���M�m�p�S ProN W3", "Hiragino Kaku Gothic ProN", "���C���I", "Meiryo", "verdana", sans-serif;�@ /* �t�H���g�ݒ� */
+
+}
+
+a {
+font-weight:bold;
+text-decoration:none; /* �����N�̃t�H���g�ݒ� */
+}
+
+a:link {
+color:#000000; /* �����N�̐F */
+}
+
+a:visited {
+color:#999;  /* �K���̐F*/
+}
+
+a:hover {
+color:#ee7800;
+text-decoration:underline;  /* �I���}�E�X�F */
+}

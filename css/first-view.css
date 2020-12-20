@@ -3,11 +3,7 @@
   overflow: hidden;
 }
 
-.first-view .swiper-container .swiper-wrapper .swiper-slide .nanoamino {
-  width: 100%;
-}
-
-.first-view .swiper-container .swiper-wrapper .swiper-slide .system {
+.first-view .swiper-container .swiper-wrapper .swiper-slide img {
   width: 100%;
 }
 /*# sourceMappingURL=first-view.css.map */

@@ -87,7 +87,7 @@
 .reccomend-swiper {
   width: 100%;
   height: 320px;
-  margin: 2rem auto;
+  margin: 0 auto;
 }
 
 .reccomend-swiper .swiper-wrapper .swiper-slide .reccomend-card {
@@ -192,6 +192,10 @@
 .begginer-descriptions .description p {
   margin: 1rem 0 0 0;
   line-height: 1.4;
+}
+
+.begginer-descriptions .description .faq {
+  text-align: center;
 }
 
 .begginer-descriptions .description .login-button {
@@ -346,6 +350,9 @@
 }
 
 @media (min-width: 992px) {
+  .reccomend-swiper {
+    width: 80%;
+  }
   .youtube-reccomend {
     margin: 2rem 0;
   }
