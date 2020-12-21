@@ -6,4 +6,150 @@
 .first-view .swiper-container .swiper-wrapper .swiper-slide img {
   width: 100%;
 }
+
+.first-view .swiper-container .swiper-wrapper .brand-image {
+  position: relative;
+}
+
+.first-view .swiper-container .swiper-wrapper .brand-image .brand-copy {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-name {
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .sub-name {
+  font-size: 12px;
+  text-align: center;
+  margin: 8px 0 0 0;
+}
+
+.first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-read {
+  margin: 2rem 0 0 0;
+  text-align: center;
+  line-height: 1.4;
+  font-family: "Noto Serif", serif;
+  display: none;
+  font-size: 13px;
+}
+
+.first-view .swiper-container .swiper-wrapper .brand-image .partner {
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  font-size: 12px;
+  line-height: 1.4;
+  bottom: 3%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: none;
+  opacity: 0.7;
+}
+
+.first-view .swiper-container .swiper-wrapper .brand-image #system {
+  top: 50%;
+  left: 75%;
+}
+
+.first-view .swiper-container .swiper-wrapper .brand-image #neway {
+  top: 50%;
+  left: 30%;
+}
+
+.first-view .swiper-container .swiper-wrapper .brand-image #neway .brand-name {
+  letter-spacing: 0;
+  font-size: 22px;
+}
+
+.first-view .swiper-container .swiper-wrapper .brand-image #moroccan {
+  top: 50%;
+  left: 72%;
+}
+
+@media (min-width: 576px) {
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-name {
+    font-size: 32px;
+    letter-spacing: 2px;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .sub-name {
+    font-size: 16px;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-read {
+    display: block;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image #neway .brand-name {
+    letter-spacing: 0;
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-name {
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .sub-name {
+    font-size: 22px;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-read {
+    display: block;
+    font-size: 16px;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image #neway .brand-name {
+    letter-spacing: 0;
+    font-size: 36px;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image #system {
+    top: 45%;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image #moroccan {
+    top: 45%;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image .partner {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-name {
+    font-size: 42px;
+    letter-spacing: 2px;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .sub-name {
+    font-size: 24px;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-read {
+    display: block;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image #neway .brand-name {
+    letter-spacing: 0;
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-name {
+    font-size: 48px;
+    letter-spacing: 2px;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .sub-name {
+    font-size: 28px;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-read {
+    display: block;
+  }
+  .first-view .swiper-container .swiper-wrapper .brand-image #neway .brand-name {
+    letter-spacing: 0;
+    font-size: 42px;
+  }
+}
 /*# sourceMappingURL=first-view.css.map */

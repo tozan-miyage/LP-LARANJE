@@ -1,17 +1,279 @@
 // <!-- ファーストビュー -->
-
 .first-view {
   .swiper-container {
     .swiper-wrapper {
       .swiper-slide {
         width: 100%;
-        // height: 400px;
         overflow: hidden;
-        // position: relative;
         img {
           width: 100%;
         }
       }
+      .brand-image {
+        position: relative;
+        .brand-copy {
+          width: 50%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+
+          .brand-name {
+            font-size: 24px;
+            text-align: center;
+            letter-spacing: 2px;
+          }
+          .sub-name {
+            font-size: 12px;
+            text-align: center;
+            margin: 8px 0 0 0;
+          }
+
+          .brand-read {
+            margin: 2rem 0 0 0;
+            text-align: center;
+            line-height: 1.4;
+            font-family: "Noto Serif", serif;
+            display: none;
+            font-size: 13px;
+          }
+        }
+        .partner {
+          width: 90%;
+          text-align: center;
+          position: absolute;
+          font-size: 12px;
+          line-height: 1.4;
+          bottom: 3%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          display: none;
+          opacity: 0.7;
+        }
+
+        #system {
+          top: 50%;
+          left: 75%;
+          .brand-name {
+            //
+          }
+          .sub-name {
+            //
+          }
+          .brand-read {
+            //
+          }
+        }
+
+        #neway {
+          top: 50%;
+          left: 30%;
+          .brand-name {
+            letter-spacing: 0;
+            font-size: 22px;
+          }
+
+          .sub-name {
+            //
+          }
+          .brand-read {
+            //
+          }
+        }
+
+        #moroccan {
+          top: 50%;
+          left: 72%;
+          .brand-name {
+          }
+          .sub-name {
+            //
+          }
+          .brand-read {
+            //
+          }
+        }
+      }
     }
   }
+}
+
+//Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .first-view {
+    .swiper-container {
+      .swiper-wrapper {
+        .swiper-slide {
+          //
+        }
+        .brand-image {
+          .brand-copy {
+            .brand-name {
+              font-size: 32px;
+              letter-spacing: 2px;
+            }
+            .sub-name {
+              font-size: 16px;
+            }
+            .brand-read {
+              display: block;
+            }
+          }
+
+          #neway {
+            .brand-name {
+              letter-spacing: 0;
+              font-size: 32px;
+            }
+
+            .sub-name {
+              //
+            }
+            .brand-read {
+              //
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .first-view {
+    .swiper-container {
+      .swiper-wrapper {
+        .swiper-slide {
+          //
+        }
+        .brand-image {
+          .brand-copy {
+            .brand-name {
+              font-size: 36px;
+              letter-spacing: 2px;
+            }
+            .sub-name {
+              font-size: 22px;
+            }
+            .brand-read {
+              display: block;
+              font-size: 16px;
+            }
+          }
+
+          #neway {
+            .brand-name {
+              letter-spacing: 0;
+              font-size: 36px;
+            }
+
+            .sub-name {
+              //
+            }
+            .brand-read {
+              //
+            }
+          }
+          #system {
+            top: 45%;
+          }
+
+          #moroccan {
+            top: 45%;
+          }
+
+          .partner {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .first-view {
+    .swiper-container {
+      .swiper-wrapper {
+        .swiper-slide {
+          //
+        }
+        .brand-image {
+          .brand-copy {
+            .brand-name {
+              font-size: 42px;
+              letter-spacing: 2px;
+            }
+            .sub-name {
+              font-size: 24px;
+            }
+            .brand-read {
+              display: block;
+            }
+          }
+
+          #neway {
+            .brand-name {
+              letter-spacing: 0;
+              font-size: 42px;
+            }
+
+            .sub-name {
+              //
+            }
+            .brand-read {
+              //
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .first-view {
+    .swiper-container {
+      .swiper-wrapper {
+        .swiper-slide {
+          //
+        }
+        .brand-image {
+          .brand-copy {
+            .brand-name {
+              font-size: 48px;
+              letter-spacing: 2px;
+            }
+            .sub-name {
+              font-size: 28px;
+            }
+            .brand-read {
+              display: block;
+            }
+          }
+
+          #neway {
+            .brand-name {
+              letter-spacing: 0;
+              font-size: 42px;
+            }
+
+            .sub-name {
+              //
+            }
+            .brand-read {
+              //
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
 }
