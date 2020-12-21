@@ -1,15 +1,18 @@
 footer {
   // <!-- 各店舗インスタグラム -->
   .instagram-link {
-    background-color: whitesmoke;
+    // background-color: whitesmoke;
     text-align: center;
     margin: 3rem 0 0 0;
     color: black;
+    max-width: 567px;
+    margin: 3rem auto;
 
     .instagram-link-head {
       height: 64px;
-      font-size: 15px;
-      border: solid 1px white;
+      font-size: 20px;
+      margin: 0 0 1rem;
+      //   border: solid 1px white;
 
       .fa-instagram {
         display: inline-block;
@@ -25,41 +28,47 @@ footer {
 
     .store-instagram {
       height: 48px;
-      font-size: 12px;
-      border: solid 1px white;
+      font-size: 14px;
+      //   border: solid 1px white;
 
       p {
         line-height: 48px;
       }
     }
+  }
+}
 
-    .adress {
-      padding: 1rem;
-      text-align: center;
-      line-height: 1.4;
+.adress {
+  margin: 1rem 2rem;
+  padding: 3rem 1rem;
+  text-align: center;
+  line-height: 1.4;
+  border-top: solid 1px gainsboro;
 
-      .company {
-        margin: 0 0 8px 0;
-        font-size: 16px;
-        font-weight: 400;
-      }
-
-      .company-info {
-        text-align: left;
-        display: inline-block;
-        margin: 0 auto;
-      }
-
-      span {
-      }
-
-      p {
-        font-size: 12px;
-      }
-    }
+  .company {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    font-weight: 400;
   }
 
-  .copyright {
+  .company-info {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.copyright {
+  .footer-img {
+      img {
+          width: 100%;
+      }
+  }
+  .footer-bar {
     background: black;
     color: white;
     font-size: 11px;
@@ -67,4 +76,56 @@ footer {
     height: 32px;
     line-height: 32px;
   }
+}
+
+//Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .instagram-link {
+    .store-instagram {
+      height: 48px;
+
+      p {
+        line-height: 48px;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.adress {
+  .company {
+    font-size: 16px;
+  }
+
+  .company-info {
+    margin: 1rem auto;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .adress {
+    .company {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
 }

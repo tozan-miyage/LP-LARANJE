@@ -1,6 +1,5 @@
 // <!-- メインコンテンツ -->
 
-
 .content {
   margin: 3rem 0;
 
@@ -22,7 +21,10 @@
 
         hr {
           height: 30px;
-          margin: 0;
+          width: 80%;
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%, -50%);
         }
 
         p {
@@ -214,7 +216,7 @@
     }
 
     .faq {
-    text-align: center;
+      text-align: center;
     }
 
     .login-button {
@@ -333,8 +335,10 @@
           height: 30px;
 
           hr {
-            height: 30px;
-            margin: 0;
+            
+            // position: absolute;
+            // left: 50%;
+            // transform: translate(-50%, -50%);
           }
 
           p {
@@ -385,7 +389,6 @@
       text-align: center;
       margin: 3rem auto 1rem;
       font-size: 1.4rem;
-      
     }
 
     .youtube-video {

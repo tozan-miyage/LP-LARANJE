@@ -23,7 +23,11 @@
 
 .content .content-wrapper .content-header div hr {
   height: 30px;
-  margin: 0;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .content .content-wrapper .content-header div p {
@@ -291,10 +295,6 @@
   .content .content-wrapper .content-header div {
     position: relative;
     height: 30px;
-  }
-  .content .content-wrapper .content-header div hr {
-    height: 30px;
-    margin: 0;
   }
   .content .content-wrapper .content-header div p {
     position: absolute;

@@ -18,12 +18,12 @@ body {
 }
 
 a {
-  color: black;
+  color: #006fbe;
 }
 
 a:hover {
   text-decoration: none;
-  color: orange;
+  color: #FD8C46;
 }
 
 @media (min-width: 1200px) {
