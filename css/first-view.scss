@@ -17,25 +17,26 @@
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
+          font-size: 20px; //1em
 
           .brand-name {
-            font-size: 24px;
+            font-size: 1em;
             text-align: center;
             letter-spacing: 2px;
           }
           .sub-name {
-            font-size: 12px;
+            font-size: 0.5em;
             text-align: center;
-            margin: 8px 0 0 0;
+            margin: 0.2em 0 0 0;
           }
 
           .brand-read {
-            margin: 2rem 0 0 0;
+            margin: 3em 0 0 0;
             text-align: center;
             line-height: 1.4;
             font-family: "Noto Serif", serif;
             display: none;
-            font-size: 13px;
+            font-size: 16px;
           }
         }
         .partner {
@@ -54,44 +55,16 @@
         #system {
           top: 50%;
           left: 75%;
-          .brand-name {
-            //
-          }
-          .sub-name {
-            //
-          }
-          .brand-read {
-            //
-          }
         }
 
         #neway {
           top: 50%;
           left: 30%;
-          .brand-name {
-            letter-spacing: 0;
-            font-size: 22px;
-          }
-
-          .sub-name {
-            //
-          }
-          .brand-read {
-            //
-          }
         }
 
         #moroccan {
           top: 50%;
           left: 72%;
-          .brand-name {
-          }
-          .sub-name {
-            //
-          }
-          .brand-read {
-            //
-          }
         }
       }
     }
@@ -103,35 +76,9 @@
   .first-view {
     .swiper-container {
       .swiper-wrapper {
-        .swiper-slide {
-          //
-        }
         .brand-image {
           .brand-copy {
-            .brand-name {
-              font-size: 32px;
-              letter-spacing: 2px;
-            }
-            .sub-name {
-              font-size: 16px;
-            }
-            .brand-read {
-              display: block;
-            }
-          }
-
-          #neway {
-            .brand-name {
-              letter-spacing: 0;
-              font-size: 32px;
-            }
-
-            .sub-name {
-              //
-            }
-            .brand-read {
-              //
-            }
+            font-size: 32px;//1em
           }
         }
       }
@@ -144,37 +91,14 @@
   .first-view {
     .swiper-container {
       .swiper-wrapper {
-        .swiper-slide {
-          //
-        }
         .brand-image {
           .brand-copy {
-            .brand-name {
-              font-size: 36px;
-              letter-spacing: 2px;
-            }
-            .sub-name {
-              font-size: 22px;
-            }
+            font-size: 36px;//1em
             .brand-read {
               display: block;
-              font-size: 16px;
             }
           }
 
-          #neway {
-            .brand-name {
-              letter-spacing: 0;
-              font-size: 36px;
-            }
-
-            .sub-name {
-              //
-            }
-            .brand-read {
-              //
-            }
-          }
           #system {
             top: 45%;
           }
@@ -197,35 +121,9 @@
   .first-view {
     .swiper-container {
       .swiper-wrapper {
-        .swiper-slide {
-          //
-        }
         .brand-image {
           .brand-copy {
-            .brand-name {
-              font-size: 42px;
-              letter-spacing: 2px;
-            }
-            .sub-name {
-              font-size: 24px;
-            }
-            .brand-read {
-              display: block;
-            }
-          }
-
-          #neway {
-            .brand-name {
-              letter-spacing: 0;
-              font-size: 42px;
-            }
-
-            .sub-name {
-              //
-            }
-            .brand-read {
-              //
-            }
+            font-size: 48px;
           }
         }
       }
@@ -235,45 +133,18 @@
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    .first-view {
+  .first-view {
     .swiper-container {
       .swiper-wrapper {
-        .swiper-slide {
-          //
-        }
         .brand-image {
           .brand-copy {
-            .brand-name {
-              font-size: 48px;
-              letter-spacing: 2px;
-            }
-            .sub-name {
-              font-size: 28px;
-            }
-            .brand-read {
-              display: block;
-            }
-          }
-
-          #neway {
-            .brand-name {
-              letter-spacing: 0;
-              font-size: 42px;
-            }
-
-            .sub-name {
-              //
-            }
-            .brand-read {
-              //
-            }
+            font-size: 58px;
           }
         }
       }
     }
   }
 }
-
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
 }

@@ -18,27 +18,28 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  font-size: 20px;
 }
 
 .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-name {
-  font-size: 24px;
+  font-size: 1em;
   text-align: center;
   letter-spacing: 2px;
 }
 
 .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .sub-name {
-  font-size: 12px;
+  font-size: 0.5em;
   text-align: center;
-  margin: 8px 0 0 0;
+  margin: 0.2em 0 0 0;
 }
 
 .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-read {
-  margin: 2rem 0 0 0;
+  margin: 3em 0 0 0;
   text-align: center;
   line-height: 1.4;
   font-family: "Noto Serif", serif;
   display: none;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .first-view .swiper-container .swiper-wrapper .brand-image .partner {
@@ -65,48 +66,23 @@
   left: 30%;
 }
 
-.first-view .swiper-container .swiper-wrapper .brand-image #neway .brand-name {
-  letter-spacing: 0;
-  font-size: 22px;
-}
-
 .first-view .swiper-container .swiper-wrapper .brand-image #moroccan {
   top: 50%;
   left: 72%;
 }
 
 @media (min-width: 576px) {
-  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-name {
-    font-size: 32px;
-    letter-spacing: 2px;
-  }
-  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .sub-name {
-    font-size: 16px;
-  }
-  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-read {
-    display: block;
-  }
-  .first-view .swiper-container .swiper-wrapper .brand-image #neway .brand-name {
-    letter-spacing: 0;
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy {
     font-size: 32px;
   }
 }
 
 @media (min-width: 768px) {
-  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-name {
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy {
     font-size: 36px;
-    letter-spacing: 2px;
-  }
-  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .sub-name {
-    font-size: 22px;
   }
   .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-read {
     display: block;
-    font-size: 16px;
-  }
-  .first-view .swiper-container .swiper-wrapper .brand-image #neway .brand-name {
-    letter-spacing: 0;
-    font-size: 36px;
   }
   .first-view .swiper-container .swiper-wrapper .brand-image #system {
     top: 45%;
@@ -120,36 +96,14 @@
 }
 
 @media (min-width: 992px) {
-  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-name {
-    font-size: 42px;
-    letter-spacing: 2px;
-  }
-  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .sub-name {
-    font-size: 24px;
-  }
-  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-read {
-    display: block;
-  }
-  .first-view .swiper-container .swiper-wrapper .brand-image #neway .brand-name {
-    letter-spacing: 0;
-    font-size: 42px;
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy {
+    font-size: 48px;
   }
 }
 
 @media (min-width: 1200px) {
-  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-name {
-    font-size: 48px;
-    letter-spacing: 2px;
-  }
-  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .sub-name {
-    font-size: 28px;
-  }
-  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy .brand-read {
-    display: block;
-  }
-  .first-view .swiper-container .swiper-wrapper .brand-image #neway .brand-name {
-    letter-spacing: 0;
-    font-size: 42px;
+  .first-view .swiper-container .swiper-wrapper .brand-image .brand-copy {
+    font-size: 58px;
   }
 }
 /*# sourceMappingURL=first-view.css.map */
