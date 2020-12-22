@@ -2,6 +2,7 @@ body {
   font-family: "Noto Serif", "Noto Sans JP", sans-serif, serif;
   font-weight: 300;
   letter-spacing: 1px;
+  background-color: white;
 }
 
 .container-fluid,
@@ -15,6 +16,7 @@ body {
 .container-fluid {
   margin: 0 auto;
   background-color: white;
+  max-width: 1200px;
 }
 
 a {
@@ -23,7 +25,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #FD8C46;
+  color: #fd8c46;
 }
 
 @media (min-width: 1200px) {

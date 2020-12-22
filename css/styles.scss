@@ -2,7 +2,7 @@ body {
   font-family: "Noto Serif", "Noto Sans JP", sans-serif, serif;
   font-weight: 300;
   letter-spacing: 1px;
-  //   background-color: silver;
+  background-color: rgb(255, 255, 255);
 }
 
 .container-fluid,
@@ -16,15 +16,16 @@ body {
 .container-fluid {
   margin: 0 auto;
   background-color: white;
+  max-width: 1200px;
 }
 
 a {
-  color:#006fbe;
+  color: #006fbe;
   // text-decoration: none;
 }
 a:hover {
   text-decoration: none;
-  color: #FD8C46;
+  color: #fd8c46;
 }
 
 // Small devices (landscape phones, 576px and up)
