@@ -39,34 +39,39 @@ footer {
 }
 
 .adress {
-  margin: 1rem 2rem;
-  padding: 4rem 1rem 3rem;
+  margin: 1rem;
+  padding: 3rem 1rem 3rem;
   text-align: center;
   line-height: 1.4;
   border-top: solid 1px gainsboro;
+  .adress-wrapper {
+    .company {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 400;
+    }
 
-  .company {
-    margin: 0 0 8px 0;
-    font-size: 16px;
-    font-weight: 400;
-  }
+    .company-info {
+      text-align: left;
+      display: inline-block;
+      margin: 0 auto;
 
-  .company-info {
-    text-align: left;
-    display: inline-block;
-    margin: 0 auto;
-  }
+      div {
+        padding: 1rem 0 0 0;
+      }
+    }
 
-  p {
-    font-size: 12px;
+    p {
+      font-size: 12px;
+    }
   }
 }
 
 .copyright {
   .footer-img {
-      img {
-          width: 100%;
-      }
+    img {
+      width: 100%;
+    }
   }
   .footer-bar {
     background: black;
@@ -93,36 +98,40 @@ footer {
 }
 
 .adress {
-  .company {
-    font-size: 16px;
-  }
+  .adress-wrapper {
+    .company {
+      font-size: 20px;
+    }
 
-  .company-info {
-    margin: 1rem auto;
-  }
+    .company-info {
+      margin: 1rem auto;
+    }
 
-  p {
-    font-size: 14px;
+    p {
+      font-size: 14px;
+    }
   }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .adress {
-    .company {
-      font-size: 22px;
-    }
+    .adress-wrapper {
+      .company {
+        font-size: 22px;
+      }
 
-    p {
-      font-size: 16px;
-    }
-    .company-info{
+      p {
+        font-size: 16px;
+      }
+      .company-info {
         display: flex;
         justify-content: center;
 
         div {
-            margin: 1rem;
+          margin: 1rem;
         }
+      }
     }
   }
 }

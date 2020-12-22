@@ -33,26 +33,30 @@ footer .instagram-link .store-instagram p {
 }
 
 .adress {
-  margin: 1rem 2rem;
-  padding: 4rem 1rem 3rem;
+  margin: 1rem;
+  padding: 3rem 1rem 3rem;
   text-align: center;
   line-height: 1.4;
   border-top: solid 1px gainsboro;
 }
 
-.adress .company {
-  margin: 0 0 8px 0;
-  font-size: 16px;
+.adress .adress-wrapper .company {
+  margin: 0;
+  font-size: 18px;
   font-weight: 400;
 }
 
-.adress .company-info {
+.adress .adress-wrapper .company-info {
   text-align: left;
   display: inline-block;
   margin: 0 auto;
 }
 
-.adress p {
+.adress .adress-wrapper .company-info div {
+  padding: 1rem 0 0 0;
+}
+
+.adress .adress-wrapper p {
   font-size: 12px;
 }
 
@@ -79,26 +83,26 @@ footer .instagram-link .store-instagram p {
   }
 }
 
-.adress .company {
-  font-size: 16px;
+.adress .adress-wrapper .company {
+  font-size: 20px;
 }
 
-.adress .company-info {
+.adress .adress-wrapper .company-info {
   margin: 1rem auto;
 }
 
-.adress p {
+.adress .adress-wrapper p {
   font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  .adress .company {
+  .adress .adress-wrapper .company {
     font-size: 22px;
   }
-  .adress p {
+  .adress .adress-wrapper p {
     font-size: 16px;
   }
-  .adress .company-info {
+  .adress .adress-wrapper .company-info {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -106,7 +110,7 @@ footer .instagram-link .store-instagram p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .adress .company-info div {
+  .adress .adress-wrapper .company-info div {
     margin: 1rem;
   }
 }
