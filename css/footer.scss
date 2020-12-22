@@ -40,7 +40,7 @@ footer {
 
 .adress {
   margin: 1rem 2rem;
-  padding: 3rem 1rem;
+  padding: 4rem 1rem 3rem;
   text-align: center;
   line-height: 1.4;
   border-top: solid 1px gainsboro;
@@ -110,11 +110,19 @@ footer {
 @media (min-width: 768px) {
   .adress {
     .company {
-      font-size: 18px;
+      font-size: 22px;
     }
 
     p {
       font-size: 16px;
+    }
+    .company-info{
+        display: flex;
+        justify-content: center;
+
+        div {
+            margin: 1rem;
+        }
     }
   }
 }
